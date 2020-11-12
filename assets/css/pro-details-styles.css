@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+                 /*start--backgroung--image*/
+.bgimg
+{
+	background-image:url('../Images/Background.jpg');
+	background-size: 100%,100%;
+	background-attachment:fixed;
+	width:100%;
+	height:790px;
+}
+
+                 /*end--backgroung--image*/
+
+                /*start--hearder--heading*/
+.hearderset
+{
+	padding-top:300px;
+	box-sizing:border-box;
+}
+
+.hearderset h2
+{
+	font-size:40px;
+}
+
+.hearderset h1
+{
+	font-size:60px;
+	font-weight:bold;
+	
+}
+                 /*end--hearder--heading*/
+
+                   /*start--form*/
+
+.form
+{
+	height:1000px;
+	width:100%;
+	padding:100px 0px 50px;
+}
+
+.form h1
+{
+	font-size:50px;
+	font-weight:bold;
+}
+                       /*end--form*/
+					   /*start--Pd*/
+.pd
+{
+	margin-top:150px;
+}
+
+.detail
+{
+	background:black;
+	width:50px;
+	color:white;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.col-lg-7 col-md-7 col-sm-7 col-12 h2
+{
+	color:#555;
+}
+.star
+{
+	height:20px;
+}
+.price
+{
+	color: black;
+	font-size:24px;
+	font-weight:bold;
+	padding-top:20px;
+}
+
+input
+{
+	border:1px solid #ccc;
+	font-weight:bold;
+	height:33px;
+	text-align:center;
+	width:30px;
+}
+
+.cart
+{
+	background:Gray;
+	color: white;
+	font-size:20px;
+	margin-left:20px;
+}
+
+	
+
+                      /*end--pd*/
+						/*start--footer*/
+
+
+
+					 
+					 
+					 
+					 
+/*Responsive*/
+
+@media(mim-width: 992px)
+{
+}
+
+@media(mim-width: 768px) and (max-width: 991px)
+{
+}
+
+@media(mim-width: 575px) and (max-width: 767px)
+{
+}
+
+@media(mim-width: 480px) and (max-width: 574px)
+{
+
+}
+@media(max-width: 579px)
+{
+
+.hearderset h2
+{
+	font-size:25px;
+}
+
+.hearderset h1
+{
+	font-size:40px;
+	font-weight:bold;
+}
+.products
+{
+	height:3000px;
+}
+.pd
+{
+	margin-top:50px;
+}
+
+.detail
+{
+	background:black;
+	width:50px;
+	color:white;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.col-lg-7 col-md-7 col-sm-7 col-12 h2
+{
+	color:#555;
+}
+.star
+{
+	height:20px;
+}
+.price
+{
+	color: black;
+	font-size:24px;
+	font-weight:bold;
+	padding-top:20px;
+}
+
+input
+{
+	border:1px solid #ccc;
+	font-weight:bold;
+	height:33px;
+	text-align:center;
+	width:30px;
+}
+
+.cart
+{
+	background:Gray;
+	color: white;
+	font-size:20px;
+	margin-left:20px;
+}
+
+}
+
+
